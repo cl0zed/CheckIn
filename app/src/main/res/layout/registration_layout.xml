@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:orientation="vertical"
+    a:gravity="center"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent">
+
+    <EditText
+        a:id="@+id/enter_username_field"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_margin="@dimen/activity_vertical_margin"
+        a:inputType="textEmailAddress"
+        a:typeface="monospace"
+        a:hint="@string/enter_email"/>
+
+    <EditText
+        a:id="@+id/enter_password_field"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:inputType="textPassword"
+        a:layout_margin="@dimen/activity_vertical_margin"
+        a:hint="@string/enter_password"/>
+
+    <Button
+        a:id="@+id/send_auth_request"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:text="@string/sign_in"
+        a:layout_margin="@dimen/activity_vertical_margin"
+        a:layout_gravity="center"
+        a:textColor="@android:color/white"
+        a:background="@color/colorPrimary"/>
+
+</LinearLayout>

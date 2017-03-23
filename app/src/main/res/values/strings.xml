@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TeamLabProject</string>
+
+    <string name="title_app">CheckIn</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_email">Enter your user name</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="authentication_error">Incorrect login or password. Check it and try again</string>
+    <string name="profile_error">Can\'t get profile data</string>
+    <string name="topic_error">Can\'t get information about your topic in table</string>
+    <string name="send_post_error">Error in post send</string>
+    <string name="message_send">Post send</string>
+    <string name="base_error_text">Error in request</string>
+    <string name="logged_as">You logged as: %1$s</string>
+    <string name="toDinner">Dinner</string>
+    <string name="toHome">Home</string>
+    <string name="fromDinner">From dinner</string>
+    <string name="toWork">On work</string>
+    <string name="connectedWIFI">Connected to working WIFI</string>
+    <string name="disconnectedWIFI">Disconnected from working WIFI</string>
+    <string name="message_for_coming">Send message for TeamLab</string>
+</resources>

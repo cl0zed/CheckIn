@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TeamLabProject</string>
+    <string name="action_settings">Настройки</string>
+    <string name="enter_email">Введите имя учетной запси</string>
+    <string name="title_app">CheckIn</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="authentication_error">Неправильный логин или пароль. Проверьте, и попробуйте заново</string>
+    <string name="profile_error">Невозможно получить данные о профиле</string>
+    <string name="topic_error">Невозможно получить информацию о топике в табеле</string>
+    <string name="send_post_error">Ошибка при отправлении сообщения </string>
+    <string name="message_send">Сообщение отправлено</string>
+    <string name="base_error_text">Ошибка в запросе</string>
+    <string name="logged_as">Вы вошли как: %1$s</string>
+    <string name="toDinner">На обед</string>
+    <string name="toHome">Домой</string>
+    <string name="fromDinner">С обеда</string>
+    <string name="toWork">На работе</string>
+    <string name="connectedWIFI">Вы подключились к рабочему WI-FI</string>
+    <string name="disconnectedWIFI">Вы отключились от рабочего WI-FI</string>
+    <string name="message_for_coming">Оставьте сообщение в TeamLab</string>
+</resources>

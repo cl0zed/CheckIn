@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:orientation="vertical"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent">
+
+    <TextView
+        a:id="@+id/logged_as_text_view"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_margin="@dimen/activity_vertical_margin"
+        a:textSize="20sp"
+        a:gravity="center"
+        a:textColor="@android:color/black"/>
+
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:orientation="vertical"
+        a:layout_centerInParent="true">
+
+        <Button
+            a:id="@+id/send_on_work_message"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_margin="@dimen/activity_vertical_margin"
+            a:background="@drawable/button_work"
+            a:textColor="@android:color/black"
+            a:text="На работе"/>
+
+        <Button
+            a:id="@+id/send_dinner_message"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_margin="@dimen/activity_vertical_margin"
+            a:background="@drawable/button_dinner"
+            a:textColor="@android:color/black"
+            a:text="На обеде"/>
+
+        <Button
+            a:id="@+id/send_go_home_message"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_margin="@dimen/activity_vertical_margin"
+            a:textColor="@android:color/black"
+            a:background="@drawable/button_home"
+            a:text="Домой"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
